@@ -3,7 +3,7 @@
 Summary:	Affymetrix File Parsing SDK
 Name:		R-%{packname}
 Version:	1.82.0
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
@@ -43,14 +43,10 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_libdir}/R/library/%{packname}
 %doc %{_libdir}/R/library/%{packname}/html
 %doc %{_libdir}/R/library/%{packname}/DESCRIPTION
-%doc %{_libdir}/R/library/%{packname}/NEWS
 %{_libdir}/R/library/%{packname}/INDEX
 %{_libdir}/R/library/%{packname}/NAMESPACE
 %{_libdir}/R/library/%{packname}/Meta
 %{_libdir}/R/library/%{packname}/R
 %{_libdir}/R/library/%{packname}/help
 %{_libdir}/R/library/%{packname}/libs
-%{_libdir}/R/library/%{packname}/extras
-%{_libdir}/R/library/%{packname}/info
-%{_libdir}/R/library/%{packname}/testscripts
 
