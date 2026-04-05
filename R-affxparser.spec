@@ -3,12 +3,12 @@
 Summary:	Affymetrix File Parsing SDK
 Name:		R-%{packname}
 Version:	1.82.0
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
 # Source0-md5:	9f748ecae1c1ed5c10113e2dbced634d
-URL:		http://bioconductor.org/packages/release/bioc/html/affxparser.html
+URL:		https://bioconductor.org/packages/release/bioc/html/affxparser.html
 BuildRequires:	R
 BuildRequires:	texlive-latex
 Requires:	R
